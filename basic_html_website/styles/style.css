@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    border-style: dotted;
+    margin-bottom: 3em;
+    display: flex;
+    align-items: flex-start;
+}
+
+header p {
+    align-self: flex-start;
+
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-self: flex-end;
+}
+
+header ul li a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
