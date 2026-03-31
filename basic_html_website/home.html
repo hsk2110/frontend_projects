@@ -12,62 +12,75 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta lang="en">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header class="container">
+        <header>
             <p>Hyeon Su Kim</p>
             <nav>
-                <ul class="navi">
+                <ul>
                     <li><a href="home.html">Home</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="articles.html">Articles</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-           
+            </nav>           
         </header>
         <main>
             <h1>Frontend Developer</h1>
-            <h5>html only with proper layout, no styling</h5>
 
-            <section class="projects">
-                <ul>
-                    <li>HTML only portfolio</li>
-                    <li>Calculator</li>
-                    <li>Quiz App</li>
-                    <li>Countdown Timer</li>
-                    <li>Product Upcoming Page</li>
-                </ul>
-            </section>
 
-            <section class="workexp">
-                <article id="roadmapsh">
-                    <p>roadmap.sh <br>
-                    Solved all the frontend projects <br>
-                    visit my profile</p>
-                </article>
-            </section>
+            <div class="home-container">
+                <section class="projects">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>HTML only portfolio</li>
+                        <li>Calculator</li>
+                        <li>Quiz App</li>
+                        <li>Countdown Timer</li>
+                        <li>Product Upcoming Page</li>
+                    </ul>
+                </section>
 
-            <section class="opensourcework">
-                <p>
-                    Contributed to 50 opensource projects. Mady my own projects with 200 GitHub Stars.
-                </p>
-                <p>Visit my GitHub profile</p>
-            </section>
+                <div class="work-container">
+                    <section class="workexp">
+                        <h3>Work Experience</h3>
+                        <article id="roadmapsh">
+                            <p>roadmap.sh <br>
+                            Solved all the frontend projects <br>
+                            visit my profile</p>
+                        </article>
+                    </section>
 
-            <section class="education">
-                <p>Graduated with 3.76 out of 4 CGPA. Won ACME Hackathon. Organized 30 sessions.</p>
-                <p>Courses I took:</p>
-                <ul>
-                    <li>Object Oriented Programming</li>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Web Engineering</li>
-                    <li>Artificial Intelligence</li>
-                    <li>Human Computer Interaction</li>
-                </ul>
-            </section>
+                    <section class="opensourcework">
+                        <h3>OpenSource Work</h3>
+                        <p>
+                            Contributed to 50 opensource projects. Mady my own projects with 200 GitHub Stars.
+                        </p>
+                        <p>Visit my GitHub profile</p>
+                    </section>
+                </div>
+
+                
+
+                <section class="education">
+                    <h3>Education</h3>
+                    <p>Graduated with 3.76 out of 4 CGPA. Won ACME Hackathon. Organized 30 sessions.</p>
+                    <p>Courses I took:</p>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                    </ul>
+                </section>
+            </div>
 
             <section class="reviews">
+                <h3>Reviews from Teachers</h3>
                 <article>
                     <p>John doe was a brilliant student; always stood out with his assignments</p>
                     <p>Jane Doe
@@ -87,6 +100,8 @@
                     </p>
                 </article>
             </section>
+            
+            
         </main>
 
         <footer>

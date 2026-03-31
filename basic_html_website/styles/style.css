@@ -1,30 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Courier, monospace;
 }
 
-
 header {
-    border-style: dotted;
-    margin-bottom: 3em;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-between;
+    background-color: lightgreen;
+    margin-bottom: 1em;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    width: 20em;
+    background-color: aqua;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0.2em;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 header p {
-    align-self: flex-start;
-
+    align-self: center;
+    justify-self: flex-start;
+    padding-left: 1em;
 }
 
-
-header ul {
-    list-style-type: none;
+main {
     display: flex;
-    align-self: flex-end;
+    flex-flow: column wrap;
+    align-items: center;
 }
 
-header ul li a {
-  display: block;
-  padding: 14px 16px;
-  text-decoration: none;
+.home-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.work-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+footer {
+    margin-top: 2em;
 }
